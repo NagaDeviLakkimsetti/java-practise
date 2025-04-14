@@ -15,12 +15,12 @@ public class Greatestnumber{
         {
             System.out.println("All the 3 numbers are equal");
         }
-        else if (n1>n2 && n2>n3)
+        else if (n1>=n2 && n2>=n3)
         {
             System.out.println("The greatest of all 3 numbers is:" +n1);
         }
 
-     else if (n2>n1 && n2>n3)
+     else if (n2>=n1 && n2>=n3)
      {
        System.out.println("The greatest of all 3 numbers is:" +n2); 
      }
